@@ -1,4 +1,5 @@
 {
+  "scripts": {"start": "./node_modules/parcel-bundler/bin/cli.js index.html --port 8080","build": "parcel build index.html"},
   "name": "node-sandbox",
   "version": "1.0.0",
   "description": "Simple Node Sandbox",
@@ -7,7 +8,7 @@
     "start": "nodemon src/index.js localhost 8080"
   },
   "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "nodemon": "1.18.4"
   }
 }
